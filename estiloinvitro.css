@@ -1,0 +1,26 @@
+h1 {
+    background: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.btn-outline-info {
+    float: right;
+}
+
+#password{
+    margin-left: 13.5%;
+}
