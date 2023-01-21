@@ -1,7 +1,7 @@
-var hola = 1;
+//NODE POSTGRESS
 
-if(hola==1){
-    console.log('Soy un 1, como estas?')
-} else{
-    console.log.doc('No soy un 1 pelotudo')
-}
+import { ObtenerDatosUsuarios } from './library-bbdd.js';
+
+ObtenerDatosUsuarios().then(() => {
+    console.log("hola")
+})
